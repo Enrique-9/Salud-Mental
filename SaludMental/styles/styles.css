@@ -1,0 +1,252 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Fondo claro */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Encabezado */
+header {
+    background: #388e3c; /* Verde oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+/* Estilos del menú */
+/* Estilos del encabezado */
+header {
+    background: #4CAF50; /* Verde brillante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos del menú */
+nav {
+    margin-top: 15px; /* Espacio entre el título y el menú */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centrar el menú */
+    align-items: center; /* Alinear verticalmente */
+    flex-wrap: nowrap; /* Evitar que el menú se divida en varias líneas */
+    overflow: hidden; /* Ocultar el desbordamiento */
+}
+
+nav li {
+    margin: 0 10px; /* Espaciado uniforme entre los elementos del menú */
+    white-space: nowrap; /* Evitar que las palabras se dividan en varias líneas */
+}
+
+nav a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background 0.3s, transform 0.2s; /* Efecto de transición */
+    font-weight: bold; /* Texto en negrita */
+    
+}
+
+nav a {
+    font-size: 14px; /* Ajustar tamaño de fuente */
+    padding: 8px 12px; /* Reducir padding */
+}
+
+nav a:hover {
+    background: #45a049; /* Verde más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Efecto de agrandado al pasar el mouse */
+}
+
+/* Estilo del contenido principal */
+main {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo de secciones */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #388e3c; /* Títulos en verde oscuro */
+    border-bottom: 2px solid #66bb6a; /* Línea inferior */
+    padding-bottom: 10px;
+}
+
+/* Estilo de formularios */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+select, button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background: #388e3c; /* Verde oscuro para el botón */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #2e7d32; /* Verde más oscuro al pasar el mouse */
+}
+
+/* Estilo de blockquote */
+blockquote {
+    background: #e8f5e9; /* Fondo verde muy claro */
+    padding: 10px;
+    border-left: 5px solid #66bb6a;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* Estilo de videos */
+.video-container {
+    margin: 20px 0;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 315px;
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/*Estilo de foro*/
+.forum-post {
+    background: white; /* Fondo blanco para cada post */
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+}
+
+.forum-post h3 {
+    margin: 0 0 10px; /* Espaciado para el título del post */
+    color: #388e3c; /* Título en verde oscuro */
+}
+
+.forum-post p {
+    margin: 5px 0; /* Espaciado para el texto */
+    color: #555; /* Texto en gris oscuro */
+}
+
+.reply-button {
+    background: #66bb6a; /* Botón verde claro */
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.reply-button:hover {
+    background: #58a362; /* Verde más oscuro al pasar el mouse */
+}
+
+.forum-form {
+    background: #f9f9f9; /* Fondo claro para el formulario */
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    margin-top: 20px; /* Espacio entre posts y formulario */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.forum-form h3 {
+    margin-bottom: 15px; /* Espaciado inferior */
+    color: #388e3c; /* Título en verde oscuro */
+}
+
+.forum-form input,
+.forum-form textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio entre campos */
+    border: 1px solid #ccc; /* Borde ligero */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333; /* Color del texto */
+}
+
+.forum-form input:focus,
+.forum-form textarea:focus {
+    border-color: #4CAF50; /* Cambio de color en foco */
+    outline: none; /* Sin contorno */
+}
+
+.forum-form button {
+    background: #4CAF50; /* Botón verde */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.forum-form button:hover {
+    background: #45a049; /* Verde más oscuro al pasar el mouse */
+}
+/* Estilo de pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #388e3c; /* Mismo verde que el encabezado */
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.forum-post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background: #f9f9f9;
+}
+
+.response {
+    margin-top: 5px;
+    background: #e9e9e9;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.response-form {
+    margin-top: 10px;
+}
+
+/*Confirmacion de mensaje*/
+#confirmation-message {
+    font-weight: bold;
+    border: 1px solid #28a745; /* Color verde */
+    background-color: #d4edda; /* Fondo claro */
+    padding: 10px;
+    border-radius: 5px;
+}

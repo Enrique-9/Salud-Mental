@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salud Mental</title>
+    <link rel="shortcut icon" href="img/flor.png">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Salud Mental</h1>
+        <nav>
+            <ul>
+                <li><a href="#info">Información General</a></li>
+                <li><a href="#problemas">Problemas Comunes</a></li>
+                <li><a href="#videos-educativos">Videos educativos</a></li>
+                <li><a href="#autoevaluacion">Autoevaluación</a></li>
+                <li><a href="#tecnicas-manejo-estres">Tecnicas manejo de estres</a></li>
+                <li><a href="#encuesta">Encuesta</a></li>
+                <li><a href="#recursos">Recursos y Apoyo</a></li>
+                <li><a href="#foro">Foro</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="info">
+            <h2>Información General</h2>
+            <p>La salud mental es fundamental para el bienestar general. Incluye nuestro bienestar emocional, psicológico y social. Afecta cómo pensamos, sentimos y actuamos en la vida cotidiana. Es importante reconocer que todos enfrentamos desafíos en nuestra salud mental y que buscar ayuda es un signo de fortaleza.</p>
+            <p>Este sitio tiene como objetivo concienciar sobre la salud mental y proporcionar recursos útiles para quienes lo necesiten.</p>
+        </section>
+
+        <section id="problemas">
+            <h2>Problemas Comunes</h2>
+            <p>Los problemas de salud mental pueden variar en gravedad y duración. Algunos de los trastornos más comunes incluyen:</p>
+            <ul>
+                <li><strong>Ansiedad:</strong> Un estado de preocupación constante que puede afectar la vida diaria.</li>
+                <li><strong>Depresión:</strong> Un trastorno que afecta el estado de ánimo, provocando tristeza y pérdida de interés en actividades.</li>
+                <li><strong>Estrés:</strong> Una respuesta natural a situaciones desafiantes, pero que puede convertirse en un problema si se vuelve crónico.</li>
+                <li><strong>Trastorno Obsesivo-Compulsivo (TOC):</strong> Pensamientos intrusivos que llevan a comportamientos repetitivos.</li>
+                <li><strong>Trastorno de Estrés Postraumático (TEPT):</strong> Reacción a eventos traumáticos que puede provocar recuerdos intrusivos y ansiedad.</li>
+            </ul>
+            <p>Es fundamental reconocer los signos y buscar ayuda profesional si es necesario.</p>
+        </section>
+
+        <section id="videos-educativos">
+            <h2>Videos Educativos sobre Salud Mental</h2>
+            <p>A continuación, encontrarás una selección de videos que abordan temas importantes sobre la salud mental y técnicas para manejar el estrés.</p>
+            
+            <div class="video-container">
+                <h3>1. La Importancia de la Salud Mental</h3>
+                <iframe src="https://www.youtube.com/embed/QmFTLHbp1As" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+                
+            </div>
+            
+            <div class="video-container">
+                <h3>2. Técnicas de Relajación</h3>
+                <iframe src="https://www.youtube.com/embed/Zv0MvfYmiKg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <div class="video-container">
+                <h3>3. Cómo Manejar el Estrés</h3>
+                <iframe src="https://www.youtube.com/embed/haLE81S8c3o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section id="autoevaluacion">
+            <h2>Autoevaluación del Estrés</h2>
+            <p>Responde a las siguientes preguntas para evaluar tu nivel de estrés. No es un diagnóstico, pero puede ayudarte a identificar si necesitas buscar apoyo adicional.</p>
+            <form id="stressAssessment">
+                <label for="q1">1. ¿Te sientes abrumado por tus responsabilidades diarias?</label>
+                <select id="q1" name="q1" required>
+                    <option value="0">Nunca</option>
+                    <option value="1">A veces</option>
+                    <option value="2">Frecuentemente</option>
+                    <option value="3">Siempre</option>
+                </select>
+        
+                <label for="q2">2. ¿Tienes dificultad para dormir o descansar adecuadamente?</label>
+                <select id="q2" name="q2" required>
+                    <option value="0">Nunca</option>
+                    <option value="1">A veces</option>
+                    <option value="2">Frecuentemente</option>
+                    <option value="3">Siempre</option>
+                </select>
+        
+                <label for="q3">3. ¿Experimentas cambios de humor o irritabilidad?</label>
+                <select id="q3" name="q3" required>
+                    <option value="0">Nunca</option>
+                    <option value="1">A veces</option>
+                    <option value="2">Frecuentemente</option>
+                    <option value="3">Siempre</option>
+                </select>
+        
+                <label for="q4">4. ¿Te cuesta concentrarte en tareas cotidianas?</label>
+                <select id="q4" name="q4" required>
+                    <option value="0">Nunca</option>
+                    <option value="1">A veces</option>
+                    <option value="2">Frecuentemente</option>
+                    <option value="3">Siempre</option>
+                </select>
+        
+                <label for="q5">5. ¿Sientes tensión física, como dolores de cabeza o musculares?</label>
+                <select id="q5" name="q5" required>
+                    <option value="0">Nunca</option>
+                    <option value="1">A veces</option>
+                    <option value="2">Frecuentemente</option>
+                    <option value="3">Siempre</option>
+                </select>
+        
+                <button type="submit">Enviar Evaluación</button>
+            </form>
+            <!-- Div para mostrar el mensaje de resultado -->
+    <div id="resultMessage"></div>
+        </section>
+
+        <section id="tecnicas-manejo-estres">
+            <h2>Técnicas de Manejo del Estrés</h2>
+            <p>El manejo del estrés es esencial para mantener una buena salud mental. Aquí hay algunas técnicas efectivas que puedes practicar:</p>
+            <ul>
+                <li><strong>Respiración Profunda:</strong> Tómate unos minutos para respirar profundamente. Inhala por la nariz, mantén la respiración y exhala lentamente por la boca. Repite varias veces.</li>
+                <li><strong>Ejercicio Regular:</strong> La actividad física libera endorfinas, que son hormonas que mejoran el estado de ánimo. Intenta caminar, correr o practicar yoga.</li>
+                <li><strong>Mindfulness y Meditación:</strong> Dedica tiempo a la meditación o a ejercicios de mindfulness. Esto puede ayudarte a centrarte y reducir la ansiedad.</li>
+                <li><strong>Journaling:</strong> Escribir tus pensamientos y sentimientos puede ser terapéutico. Lleva un diario para expresar lo que sientes.</li>
+                <li><strong>Conexiones Sociales:</strong> Hablar con amigos o familiares sobre tus sentimientos puede aliviar el estrés. No dudes en buscar apoyo.</li>
+                <li><strong>Descanso Adecuado:</strong> Asegúrate de dormir lo suficiente. La falta de sueño puede aumentar el estrés y afectar tu bienestar.</li>
+                <li><strong>Tiempo para Ti:</strong> Reserva tiempo para hacer actividades que disfrutes, como leer, escuchar música o practicar un hobby.</li>
+                <li><strong>Técnicas de Relajación:</strong> Prueba técnicas como la relajación progresiva, que consiste en tensar y relajar diferentes grupos musculares.</li>
+            </ul>
+            <p>Recuerda que cada persona es diferente. Prueba varias técnicas y encuentra las que mejor funcionen para ti.</p>
+        </section>
+
+        <section id="encuesta">
+            <h2>Encuesta sobre Bienestar Mental</h2>
+            <p>Queremos conocer tu opinión. Responde a las siguientes preguntas:</p>
+            <form id="wellnessSurvey">
+                <label for="q1">1. ¿Cómo te sientes en general?</label>
+                <select id="q1" name="q1" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="1">Muy mal</option>
+                    <option value="2">Mal</option>
+                    <option value="3">Neutral</option>
+                    <option value="4">Bien</option>
+                    <option value="5">Muy bien</option>
+                </select>
+        
+                <label for="q2">2. ¿Con qué frecuencia sientes estrés?</label>
+                <select id="q2" name="q2" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="1">Nunca</option>
+                    <option value="2">Rara vez</option>
+                    <option value="3">A veces</option>
+                    <option value="4">Frecuentemente</option>
+                    <option value="5">Siempre</option>
+                </select>
+        
+                <label for="q3">3. ¿Practicas técnicas de manejo del estrés?</label>
+                <select id="q3" name="q3" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="1">Nunca</option>
+                    <option value="2">Rara vez</option>
+                    <option value="3">A veces</option>
+                    <option value="4">Frecuentemente</option>
+                    <option value="5">Siempre</option>
+                </select>
+        
+                <button type="submit">Enviar Encuesta</button>
+            </form>
+            
+            <div id="surveyResult"></div>
+        </section>
+
+        <section id="recursos">
+            <h2>Recursos y Apoyo</h2>
+            <p>Aquí puedes encontrar organizaciones y líneas de ayuda que ofrecen apoyo y asistencia:</p>
+            <ul>
+                <li><a href="https://psicoterapiamp.com/?gclid=Cj0KCQjwmt24BhDPARIsAJFYKk0lbum-K_LEsSOWYXvvudddDdSg46TwVPR5t-kVN3fa4s1WxFlSIM4aAk-kEALw_wcB" target="_blank">Atención Psicológica y Psicoterapéutica Terapia </a></li>
+                <li><a href="https://gisam.com.mx/terapiapsicologica/?gad_source=1&gclid=Cj0KCQjwmt24BhDPARIsAJFYKk3YjLebA_lS_3TBG2idbhKJNXbtbiG-d8gRg599P1wXzEqlsqlgUHYaAphDEALw_wcB" target="_blank">Psicólogos.cl - Encuentra apoyo profesional</a></li>
+       
+            </ul>
+            <p>Recuerda que no estás solo y que hay ayuda disponible.</p>
+        </section>
+
+        <section id="foro">
+            <h2>Foro de Salud Mental</h2>
+            <p>Comparte tus pensamientos y experiencias en nuestro foro. Tu voz es importante y puede ayudar a otros.</p>
+            <h2>Foro</h2>
+    
+            <div id="posts-container">
+                <!-- Aquí se mostrarán los posts -->
+            </div>
+        
+            <div class="forum-form">
+                <h3>Crear un nuevo post</h3>
+                <input type="text" id="post-title" placeholder="Título del post" required>
+                <textarea id="post-content" rows="4" placeholder="Escribe tu mensaje..." required></textarea>
+                <button id="submit-post">Publicar</button>
+            </div>
+        </section>
+
+        <section id="testimonios">
+            <h2>Testimonios</h2>
+            <p>A continuación, compartimos algunas experiencias de personas que han enfrentado desafíos de salud mental y han encontrado formas de superarlos.</p>
+            
+            <blockquote>
+                <p>"La terapia me ha enseñado a entender mis emociones y a manejarlas de manera más efectiva. Ha sido un viaje transformador." - <strong>Maria</strong></p>
+            </blockquote>
+            
+            <blockquote>
+                <p>"Hablar sobre mi ansiedad con alguien que realmente escucha me ha aliviado mucho. No estoy sola en esto." - <strong>Carlos</strong></p>
+            </blockquote>
+            
+            <blockquote>
+                <p>"La meditación y el ejercicio han cambiado mi vida. Aprendí a priorizar mi bienestar mental." - <strong>Lucía</strong></p>
+            </blockquote>
+            
+            <blockquote>
+                <p>"Aprender a pedir ayuda fue un paso difícil, pero me ha permitido avanzar. Todos merecemos apoyo." - <strong>Javier</strong></p>
+            </blockquote>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <input type="text" id="nombre" placeholder="Tu nombre" required>
+                <input type="email" id="correo" placeholder="Tu correo" required>
+                <textarea id="mensaje" placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="confirmation-message" style="display: none; color: green; margin-top: 10px;">
+                ¡Tu correo ha sido enviado!
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Salud Mental. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
